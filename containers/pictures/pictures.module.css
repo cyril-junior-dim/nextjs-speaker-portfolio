@@ -33,6 +33,7 @@
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -52,10 +53,11 @@
 }
 
 .sliderWrap .btnClose {
+    position: relative;
     width: 25px;
     height: 25px;
-    top: 40px;
-    right: 40px;
+    left: 48%;
+    padding-bottom: 4rem;
 }
 
 .sliderWrap .btnPrev {
@@ -78,6 +80,7 @@
     width: calc(100% - 40px);
     height: calc(100% - 40px);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
