@@ -1,0 +1,37 @@
+.cyrilWebsite__affiliate {
+    background: var(--color-bg-secondary);
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 12px -6px rgba(0, 0, 0, 0.3);
+}
+
+.cyrilWebsite__affiliates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    gap: 150px;
+    width: 100%;
+    height: fit-content;
+}
+
+.cyrilWebsite__affiliates div {
+    flex: 1;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cyrilWebsite__affiliates img {
+    /*width: fit-content;*/
+    /*height: fit-content;*/
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1467px) {
+    .cyrilWebsite__affiliates {
+        gap: 100px;
+    }
+}
+

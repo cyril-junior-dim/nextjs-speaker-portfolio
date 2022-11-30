@@ -1,0 +1,69 @@
+.cformInput {
+   background: var(--color-bg-secondary);
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.cformInput h1 {
+   max-height: 144px;
+   margin-bottom: 4rem;
+   text-align: center;
+}
+
+.cformInput form{
+   width: 100%;
+   max-width: 1065px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.cformInput input:focus::placeholder,
+.cformInput textarea:focus::placeholder{
+   color: transparent;
+}
+
+.cformInput input[type=text], .cformInput select, .cformInput textarea {
+   font-family: var(--font-family);
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   width: 100%;
+   max-width: 950px;
+   line-height: 2.5rem;
+   margin: 5px 0;
+   padding: 0 1rem;
+   height: 33px;
+   color: black;
+   letter-spacing: -0.01em;
+   border-width: 0;
+}
+
+.cformInput textarea[name="message"] {
+   height: 125px;
+   padding-bottom: 75px;
+}
+
+.cformInput textarea[name="message"]::placeholder {
+   line-height: 2.5rem;
+}
+
+.cformInput button {
+   margin-top: 1rem;
+   background: black;
+}
+
+.cformInput span {
+   color: white !important;
+}
+
+.contactForm p {
+   font-family: var(--font-family);
+   color: red;
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.contactForm p:empty {
+   display: none;
+}

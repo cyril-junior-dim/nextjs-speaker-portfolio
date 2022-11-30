@@ -1,0 +1,64 @@
+.cyrilWebsite__offers {
+    margin: 0 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cyrilWebsite__offers-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    width: available;
+}
+
+.cyrilWebsite__offers h1 {
+    max-width: 750px;
+}
+
+.cyrilWebsite__offers h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    max-width: 750px;
+    color: #000000;
+}
+
+.cyrilWebsite__offers p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 686px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    margin: 32px 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.cyrilWebsite__offers button {
+    background: white;
+    color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    letter-spacing: -0.01em;
+}
+
+.cyrilWebsite__offers-coaching {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.cyrilWebsite__offers-training {
+    margin-left: auto;
+    margin-right: 0;
+}

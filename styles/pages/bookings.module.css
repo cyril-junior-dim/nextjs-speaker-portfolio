@@ -1,0 +1,167 @@
+.bookingsNav {
+    width: 100%;
+    z-index: 999;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.bookingsNav p {
+    color: black;
+}
+
+.bookingsContent {
+    display: none;
+    padding-bottom: 0;
+    padding-top: 2.5rem;
+}
+
+.bookingsHeaderText {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto auto 25%;
+}
+
+.bookingOffersMenu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    margin: auto;
+}
+
+.bookingsHeaderText a {
+    cursor: pointer;
+}
+
+.bookingsHeaderText a:hover {
+    text-decoration: underline;
+}
+
+.bookings h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 60px;
+    max-width: 750px;
+}
+
+.bookingsHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.indicator {
+    position: relative;
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    transform: rotate(45deg);
+}
+
+.indicator span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    animation: animate 1s linear infinite;
+}
+
+.indicator span:nth-child(1) {
+    top: -30px;
+    left: -30px;
+    animation-delay: 0s;
+}
+.indicator span:nth-child(2) {
+    top: -15px;
+    left: -15px;
+    animation-delay: 0.2s;
+}
+.indicator span:nth-child(3) {
+    top: 0;
+    left: 0;
+    animation-delay: 0.4s;
+}
+.indicator span:nth-child(4) {
+    top: 15px;
+    left: 15px;
+    animation-delay: 0.6s;
+}
+.indicator span:nth-child(5) {
+    top: 30px;
+    left: 30px;
+    animation-delay: 0.8s;
+}
+
+@keyframes animate
+{
+    0% {
+        border-color: #222;
+        transform: translate(0,0);
+    }
+
+    20% {
+        border-color: #222;
+        transform: translate(15px, 15px);
+    }
+
+    20.1%, 100% {
+        border-color: #ccc;
+    }
+}
+
+@media screen and (min-width: 1130px){
+    .bookingsNav {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .scrollContainer {
+        display: none;
+    }
+
+    .bookingsContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bookingsHeader {
+        height: fit-content;
+        margin-bottom: 4rem;
+    }
+
+    .bookingsHeaderText {
+        margin: 0 auto 4rem;
+    }
+
+    .indicator {
+        margin: 4rem auto;
+    }
+
+    .bookingsOffers {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .bookings h1 {
+        font-size: 36px;
+    }
+}

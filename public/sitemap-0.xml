@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://cyriljuniordim.com</loc><lastmod>2022-11-29T12:55:31.643Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/coaching</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/coaching/checkout</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/coaching/checkout/submit-script</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/coaching/checkout/submit-video</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/hosting</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/keynotes</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/lecture</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/bookings/training</loc><lastmod>2022-11-29T12:55:31.647Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://cyriljuniordim.com/contact</loc><lastmod>2022-11-29T12:55:31.648Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

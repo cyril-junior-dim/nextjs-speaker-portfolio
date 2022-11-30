@@ -1,0 +1,75 @@
+.about {
+    background: #FFFFFF;
+    display: grid;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+}
+
+.headshot {
+    text-align: right;
+    padding: 2rem 0 2rem 4rem;
+}
+
+.headshot img {
+    max-height: 780px;
+    padding: 4rem 6rem 4rem 0;
+    width: auto;
+}
+
+.cyrilWebsite__about {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 6rem 4rem 0;
+}
+
+.cyrilWebsite__about h1 {
+    text-align: center;
+}
+
+.cyrilWebsite__about p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 700px;
+    margin: 25px auto;
+    text-align: justify;
+    letter-spacing: -0.01rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1300px) {
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 4rem 6rem;
+    }
+
+    .headshot img {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .cyrilWebsite__about, .headshot img, .headshot {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+

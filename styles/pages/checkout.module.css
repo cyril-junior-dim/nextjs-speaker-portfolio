@@ -1,0 +1,55 @@
+.checkoutNav {
+    width: 100%;
+    z-index: 999;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.checkoutDetails {
+    margin: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.checkoutDetails {
+    background: var(--color-bg-secondary);
+    height: 100%;
+    max-width: 750px;
+    overflow-y: scroll;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.checkoutHelp {
+    text-align: right;
+}
+
+.checkoutHelp svg {
+    cursor: pointer;
+    text-align: right;
+}
+
+.checkoutButtons {
+    margin: 2rem auto 0;
+    max-width: 250px;
+}
+
+.paypalButtonContainer {
+    z-index: 0;
+}
+
+@media screen and (min-height: 1200px) {
+    .checkout {
+        height: 100%;
+        overflow-y: hidden;
+    }
+
+    .checkoutDetailsContainer {
+        height: inherit;
+    }
+
+    .checkoutDetails img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+}

@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+
+# All User agents should not crawl the `http://example.com/nogooglebot/` folder or any of its subdirectories.
+User-agent: *
+Disallow: /bookings/coaching/checkout
+Disallow: /bookings/coaching/checkout/submit-script
+Disallow: /bookings/coaching/checkout/submit-video
+
+# Host
+Host: https://cyriljuniordim.com
+
+# Sitemaps
+Sitemap: https://cyriljuniordim.com/sitemap.xml

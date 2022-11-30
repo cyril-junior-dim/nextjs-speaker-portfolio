@@ -1,0 +1,33 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupInner {
+    background-color: white;
+    position: relative;
+    max-width: 640px;
+    padding: 32px;
+    width: 100%;
+}
+
+.popupInner p {
+    line-height: 1.5rem;
+}
+
+.popupInner svg {
+    position: absolute;
+    cursor: pointer;
+    top: 16px;
+    right: 16px;
+}

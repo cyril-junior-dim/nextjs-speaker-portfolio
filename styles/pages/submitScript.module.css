@@ -1,0 +1,88 @@
+.instructions {
+    margin: auto;
+    height: 100%;
+    max-width: 1000px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: var(--color-bg-secondary);
+}
+
+.instructionsContainer {
+    margin: auto;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    height: 100%;
+}
+
+.instructions li, .instructions p {
+    line-height: 3.5rem;
+}
+
+.emailExample {
+    text-align: center;
+}
+
+.nestedList {
+    margin-left: 1.5rem;
+}
+
+.emailText {
+    color: red;
+}
+
+.instructions h1, .instructions h2 {
+    text-align: center;
+}
+
+@media screen and (min-height: 1100px) {
+    .instructionsContainer {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .instructionsContainer {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .instructions h1 {
+        font-size: 36px;
+    }
+
+    .instructions h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .instructions h1 {
+        font-size: 32px;
+    }
+
+    .instructionsContainer {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .instructions {
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .instructions h1 {
+        font-size: 24px;
+    }
+
+    .instructions h2 {
+        font-size: 16px;
+    }
+
+    .instructions p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,15 @@
+export { default as Affiliate } from './affiliate/Affiliate';
+export { default as Article } from './article/Article';
+export { default as Form } from './form/Form';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Offer } from './offer/Offer';
+export { default as Testimonial } from './testimonial/Testimonial';
+export { default as CForm } from './cform/CForm';
+export { default as Icon } from './icon/Icon';
+export { default as RippleButton } from './rippleButton/RippleButton';
+export { default as Product } from './product/Product';
+export { default as ProductData } from './product/Product';
+export { default as PayPalCheckoutButton } from './paypalCheckoutButton/PayPalCheckoutButton';
+export { default as SecureLink } from './secureLink/SecureLink';
+export { default as Popup } from './popup/Popup';
+export { default as Footer } from '../components/footer/Footer';

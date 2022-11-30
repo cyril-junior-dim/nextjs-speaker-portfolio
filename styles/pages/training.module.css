@@ -1,0 +1,65 @@
+.trainingNav {
+    width: 100%;
+    z-index: 999;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.training {
+    width: 100%;
+}
+
+.training h1 {
+    text-align: center;
+}
+
+.training_header p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    margin: 2rem auto 0;
+    max-width: 1050px;
+    letter-spacing: -0.01rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.trainingOffers {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 950px) {
+    .training_header {
+        margin: 0 auto;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+
+    .training_header p {
+        max-width: 500px;
+    }
+
+    .training h1 {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 36px;
+    }
+
+    .trainingOffers {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .training h1 {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 28px;
+    }
+}

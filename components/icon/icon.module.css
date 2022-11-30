@@ -1,0 +1,22 @@
+.iconGroup {
+    margin: 0 auto;
+}
+
+.iconGroup img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 75px;
+    max-height: 75px;
+}
+
+.boldTitle {
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.iconText {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}

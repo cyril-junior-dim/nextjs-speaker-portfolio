@@ -1,0 +1,59 @@
+.cyrilWebsite__formInput form {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.cyrilWebsite__formInput button {
+    background: black;
+    margin-top: 1rem;
+}
+
+.cyrilWebsite__formInput span {
+    color: white !important;
+}
+
+.cyrilWebsite__formInput input[type=text],
+.cyrilWebsite__formInput select,
+.cyrilWebsite__formInput textarea {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+    margin: 5px 0;
+    height: 33px;
+    letter-spacing: -0.01em;
+    padding-left: 1rem;
+}
+
+.cyrilWebsite__formInput input:focus::placeholder {
+    color: transparent;
+}
+
+.cyrilWebsite__formInput input[type="submit"] {
+    font-family: var(--font-family);
+    /*background: black;*/
+    /*color: white;*/
+    border-radius: 8px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    letter-spacing: -0.01em;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.cyrilWebsite__formInput p {
+    font-family: var(--font-family);
+    color: red;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1226px) {
+    .cyrilWebsite__formInput form{
+        margin-top: 2rem;
+    }
+}

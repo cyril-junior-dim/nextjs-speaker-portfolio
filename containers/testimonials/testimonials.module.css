@@ -1,0 +1,142 @@
+.testimonials {
+    margin: 4rem auto;
+    width: 80vw;
+    height: 450px;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.section_title h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.section {
+    margin: 4rem 0;
+    height: fit-content;
+}
+
+.personImg {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid var(--clr-grey-8);
+    box-shadow: var(--dark-shadow);
+}
+
+.testimonials h4 {
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    height: fit-content;
+}
+
+
+.title {
+    font-family: var(--font-family);
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    color: var(--clr-grey-3);
+}
+
+.quote {
+    font-family: var(--font-family);
+    max-width: 35em;
+    margin: 2rem auto 0;
+    line-height: 2;
+    color: var(--clr-grey-5);
+}
+
+.icon {
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: var(--clr-primary-5);
+}
+
+.prev,
+.next {
+    top: 200px;
+    display: grid;
+    background: #CCCCCC;
+    color: #FFFFFF;
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    place-items: center;
+    border-color: transparent;
+    transform: translateY(-50%);
+    border-radius: var(--radius);
+    transition: var(--transition);
+}
+
+.prev:hover,
+.next:hover {
+    background: var(--clr-primary-5);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.testimonials article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.testimonials article.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+    height: fit-content;
+}
+
+.testimonials article.lastSlide {
+    transform: translateX(-100%);
+}
+
+.testimonials article.nextSlide {
+    transform: translateX(100%);
+}
+
+@media screen and (max-width: 660px) {
+    .testimonials {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .testimonials {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .section_title h1 {
+        font-size: 32px;
+    }
+
+    .testimonials {
+        height: 650px;
+    }
+}

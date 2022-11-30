@@ -1,0 +1,74 @@
+.hostingNavbar p,
+.hostingNavbar svg {
+    color: white !important;
+}
+
+.hostingNav {
+    background-position: center;
+}
+
+.hostingNav p {
+    color: black;
+}
+
+.hostingBgImg {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.hostingPageCta p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.hostingForm {
+    background: var(--color-bg-secondary);
+}
+
+.hostingBgImg .hostingPageCta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.hostingPageCta button {
+    font-family: var(--font-family);
+    color: #333333;
+    background: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    min-height: 50px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+@media screen and (max-width: 365px) {
+    .hostingPageCta p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

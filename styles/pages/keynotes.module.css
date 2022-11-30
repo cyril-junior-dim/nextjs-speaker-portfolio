@@ -1,0 +1,77 @@
+.keynotesNav  p {
+    color: black;
+}
+
+.keynotes {
+    width: 100%;
+}
+
+.keynotes h1 {
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.keynotes_header {
+    padding-bottom: 0;
+}
+
+.keynoteOffers {
+    padding-bottom: 0;
+}
+
+.keynoteOffers h1 {
+    margin-bottom: 2rem;
+}
+
+.keynotesOffers img {
+    width: 100%;
+    height: auto;
+}
+
+.keynotesOffers .offerRhs {
+    margin: 0 0 2rem;
+    padding: 4rem 4rem 0;
+}
+
+.keynotes_header p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    margin: 2rem auto 0;
+    max-width: 1050px;
+    letter-spacing: -0.01rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 950px) {
+    .keynotes_header {
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+
+    .keynotes_header p {
+        max-width: 500px;
+    }
+
+    .keynotes h1 {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .keynotes h1 {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 28px;
+    }
+}
