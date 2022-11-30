@@ -9,8 +9,8 @@ const testimonials = [
         name: "Tomek Rudzki",
         title: "SEO Specialist, Head of R&D at Onely",
         quote: "Cyril is an absolute master of bringing a presentation and its message to the greatest possible light. " +
-            "His adaptive style of teaching was an invaluable tool in my preparations for the *name* Conference held in " +
-            "Austria."
+            "His adaptive style of teaching was an invaluable tool in my preparations for the G50 Seoktoberfest " +
+            "(Invite Only) Conference held in Austria."
     },
     {
         id: 2,

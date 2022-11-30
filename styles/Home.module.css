@@ -1,6 +1,9 @@
-.homeNav p,
 .homeNav svg {
   color: white !important;
+}
+
+.homeNav p {
+  color: white;
 }
 
 .homeImg {
