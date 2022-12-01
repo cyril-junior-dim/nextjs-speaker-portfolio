@@ -38,10 +38,10 @@ const Pictures = ({galleryImages}) => {
         <div>
             {openModal &&
                 <div className={styles.sliderWrap}>
-                    <FontAwesomeIcon  icon={ faCircleXmark } className={styles.btnClose} onClick={handleCloseModal} />
                     <FiChevronLeft className={styles.btnPrev} onClick={prevSlide} />
                     <FiChevronRight className={styles.btnNext} onClick={nextSlide} />
                     <div className={styles.fullScreenImage}>
+                        <FontAwesomeIcon  icon={ faCircleXmark } className={styles.btnClose} onClick={handleCloseModal} />
                         <Image src={galleryImages[slideNumber].img} alt={''} />
                     </div>
                 </div>
