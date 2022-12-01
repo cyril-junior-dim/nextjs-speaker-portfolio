@@ -107,3 +107,25 @@
     color: #000000;
     margin: 0 auto 4rem;
 }
+
+@media screen and (max-height: 1090px){
+    .sliderWrap .btnCloseLarge {
+        display: none;
+    }
+}
+
+@media screen and (min-height: 1090px){
+    .sliderWrap .btnClose {
+        display: none;
+    }
+
+    .sliderWrap .btnCloseLarge {
+        position: fixed;
+        cursor: pointer;
+        top: 40px;
+        right: 40px;
+        opacity: 0.6;
+        color: #fff;
+        z-index: 9999;
+    }
+}
