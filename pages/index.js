@@ -52,7 +52,7 @@ const Home = () => {
             <Form />
           </div>
         </div>
-        <div className={`${styles.galleryContainer} section__padding`}>
+        <div className={`${styles.galleryContainer} section__padding`} data-aos={"fade-up"}>
           <Pictures galleryImages={galleryPictures} />
         </div>
         <Blog />
