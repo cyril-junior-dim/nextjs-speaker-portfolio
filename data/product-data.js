@@ -8,7 +8,7 @@ const products = {
         title: "Script Evaluation",
         description: "Receive written feedback on a script. I evaluate elements of clarity, coherence, storytelling, " +
             "consistency with the purpose, emotional impact and language musicality. Feedback is ready within 1 week.",
-        price: 1,
+        price: 100,
         instructions:
             <ul>
                 <li>Upon checkout, you will be redirected to the submissions page</li>
