@@ -4,6 +4,11 @@
 
 .homeNav p {
   color: white;
+  z-index: 999;
+}
+
+.homeNav button {
+  z-index: 999;
 }
 
 .homeImg {
