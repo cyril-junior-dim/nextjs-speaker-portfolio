@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <div className={styles.cyrilWebsite__header}>
             <div className={`${styles.mainHeaderContent} section__padding`}>
-                <div className={styles.textAndLogo} data-aos={"fade"} data-aos-delay="2500">
+                <div className={styles.textAndLogo} data-aos={"fade"}>
                     <div className={styles.headerContent_logo}>
                         <Image src={logo} alt={"Logo"} priority={true}/>
                     </div>
@@ -23,7 +23,7 @@ const Header = () => {
                     <div className={styles.headerContent_missionStatement}>
                         <p>Create real impact, through real stories, made for real people... in your real voice.</p>
                     </div>
-                    <div className={styles.headerContent__button} data-aos={"fade"} data-aos-delay="2200">
+                    <div className={styles.headerContent__button}>
                         <SecureLink href={"/bookings"}>
                             <RippleButton type={"button"}>Book Cyril</RippleButton>
                         </SecureLink>
