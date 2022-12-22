@@ -16,6 +16,10 @@
     height: 296px;
 }
 
+.videos iframe {
+    border: 1px black;
+}
+
 @media screen and (max-width: 1364px) {
     .videos {
         border-top-right-radius: 350px;
