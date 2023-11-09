@@ -1,3 +1,39 @@
+<h1>Cyril Junior Dim Personal Website</h1>
+
+
+ ### [Live Website](https://www.cyriljuniordim.com)
+
+
+<h2>Description</h2>
+A freelance job performed to develop my professional page and portfolio as an International Communications Expert using Next.js. The site contains an "about me" section describing my background and mission. It also details the services I offer and highlights my professional affiliates, citations and testimonials. Implemented into the site is a mechanism for lead generation and payment handling using Paypal or debit card for individuals who may be interested in investing in my services. The project also contans a sitemap and accounts for SEO. Currently, the page is ranked second only to LinkedIn in google searches. 
+<br />
+<br />
+
+<h2>Design</h2>
+<p>LoFi and HiFi Wireframing of the website can be found <a href="https://www.figma.com/file/O3s55uvvjxtZ75rQzSoH0P/Wireframing-in-Figma?type=design&node-id=97%3A6177&mode=design&t=wLZEdL4yNzOLAPuc-1">here</a>.</p>
+
+<h2>Languages Used</h2>
+
+- <b>Javascript:</b> Web app logic for handling email submission, payment handling and as a part of the React Framework through Next.js.
+
+<h2>Utilities Used</h2>
+
+- <b>Next.js:</b> State management and responsive features of the site.
+- <b>Vercel:</b> Deployment of site to dev environment
+
+<h2>Release Screens</h2>
+<p>The full website can be found <a href="https://www.cyriljuniordim.com">here</a>.</p>
+<p align="center">
+<img src="https://i.imgur.com/uR8JdaH.jpg" height="85%" width="85%" alt="Homepage"/>
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/mHkHeiQ.png" height="85%" width="85%" alt="Coaching Offers"/>
+</p>
+
+
+## Technical Information
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
