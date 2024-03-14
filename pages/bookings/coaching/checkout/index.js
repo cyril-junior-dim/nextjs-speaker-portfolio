@@ -63,7 +63,6 @@ const Checkout = () => {
                 options={{
                   "client-id": process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID,
                   currency: "EUR",
-                  components: "buttons",
                 }}
               >
                 <PayPalCheckoutButton product={product} />{" "}
