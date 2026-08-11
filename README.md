@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **Legacy project.** This repository contains the previous Next.js version of Cyril Junior Dim's professional website. The current website is available at [cyriljuniordim.com](https://www.cyriljuniordim.com). This code remains here as a historical reference.
+
 <h1>Cyril Junior Dim Personal Website</h1>
 
 
